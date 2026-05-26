@@ -1,0 +1,21 @@
+# Credentials — NEVER commit service account keys
+credentials/*
+!credentials/.gitkeep
+
+# Private/input data files
+config/billing.csv
+
+# Any stray JSON files (service account keys, OAuth tokens)
+*.json
+
+
+# Maven build output
+target/
+
+# macOS metadata
+.DS_Store
+
+# IDE files
+.idea/
+*.iml
+.vscode/
